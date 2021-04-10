@@ -19,3 +19,9 @@ export const SocialType = {
   url: string,
 }
 
+export const query = graphql`
+  fragment SocialFragment on SocialYaml {
+    name
+    url
+  }
+`
