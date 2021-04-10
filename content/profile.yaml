@@ -1,10 +1,10 @@
 - profile:
-  initials: JD
-  name: John Doe
-  profession: Web Developer
-  image: images/profile.jpg
-  location: New York, USA
-  relocation: true
+  initials: KKG
+  name: Kartik Kumar Gujarati
+  profession: Software Engineer
+  image: images/profile.png
+  location: Austin, Texas
+  relocation: false
   company: Atomic Studio
   for_hire: true
   focus: Learning Gatsby
