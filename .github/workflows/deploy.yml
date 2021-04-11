@@ -1,4 +1,4 @@
-name: Publish Personal Website
+name: Deploy Personal Site
 
 on:
   push:
