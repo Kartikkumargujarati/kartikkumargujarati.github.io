@@ -3,11 +3,18 @@ import { ProfileType } from "../../types"
 
 const About = ({ about }) => (
   <>
-    <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
-      About
+    <br />
+    <h5 className="font-header font-semibold text-front text-4xl mb-3">
+      Hello there!
     </h5>
-    <div className="font-text text-sm pb-12 leading-normal whitespace-pre-line">
-      {about}
+    <div className="font-text text-xl pb-12 leading-normal whitespace-pre-line">
+      <p>I'm Kartik. I am a software engineer 👨‍💻 and a huge taco lover 🌮 ❤️</p>
+      <br />
+      <p>I currently work at <a class="underline" href="https://retailmenot.com">RetailMeNot, Inc</a> as a Senior Software Engineer focusing on Android and GraphQL.</p>
+      <br />
+      <p>I am passionate about building good software and always looking for ways to improve user experience. My technical interests include Mobile development, GraphQL, CI/CD, DevOps, and Machine learning. </p>
+      <br />
+      <p>Besides coding, I love to cook 👨‍🍳, watch movies 🍿🎥, some photography 📸, and hang out with family and friends.</p>
     </div>
   </>
 )
