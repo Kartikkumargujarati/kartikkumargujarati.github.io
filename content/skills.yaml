@@ -1,0 +1,12 @@
+- name: Android
+  image: images/android.png
+- name: Kotlin
+  image: images/android.png
+- name: GraphQL
+  image: images/android.png
+- name: TypeScript
+  image: images/android.png
+- name: Node.js
+  image: images/android.png
+- name: CI/CD
+  image: images/android.png

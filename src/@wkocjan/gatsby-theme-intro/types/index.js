@@ -1,5 +1,6 @@
 export { arrayOf, shape, string } from "prop-types"
 export { ProfileType } from "./profile"
 export { ProjectType } from "./project"
+export { SkillType } from "./skill"
 export { SocialType } from "./social"
 export { WorkHistoryType } from "./work-history"

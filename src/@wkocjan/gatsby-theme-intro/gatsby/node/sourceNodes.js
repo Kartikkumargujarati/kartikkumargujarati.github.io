@@ -19,5 +19,10 @@ module.exports = ({ actions }) => {
       tags: [String]
       url: String
     }
+
+    type SkillsYaml implements Node {
+      name: String
+      image: File @fileByRelativePath
+    }
   `)
 }
