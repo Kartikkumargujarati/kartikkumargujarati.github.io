@@ -4,14 +4,18 @@ import { ProfileType } from "../../types"
 
 const Skills = ({ skills }) => (
   <>
-    <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
+    <h5 className="flex flex-wrap font-header font-semibold text-front text-xl mb-3">
       Top skills
     </h5>
-    <ul className="flex flex-wrap grid grid-cols-3 gap-2 md:gap-4">
-      {skills.map((skill, i) => (
-        <Skill skill={skill} key={skill} i={i + 1} />
-      ))}
-    </ul>
+    <div className="flex justify-center inline-block">
+      <div className="md:w-3/4 pb-12 md:pr-8 lg:pr-12 xl:pr-20">
+        <ul className="flex flex-wrap grid grid-cols-3 gap-2 md:gap-4">
+          {skills.map((skill, i) => (
+            <Skill skill={skill} key={skill} i={i + 1} />
+          ))}
+        </ul>
+      </div>
+    </div>
   </>
 )
 
