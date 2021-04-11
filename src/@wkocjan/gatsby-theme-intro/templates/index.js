@@ -50,7 +50,7 @@ export const query = graphql`
       }
     }
     profile: profileYaml {
-      ...ProfileFragment
+      ...CustomProfileFragment
     }
     social: allSocialYaml(filter: { url: { ne: null } }) {
       nodes {

@@ -1,3 +1,4 @@
+import { graphql } from "gatsby"
 import { arrayOf, bool, number, shape, string, object } from "prop-types"
 
 export const ProfileType = {
@@ -16,7 +17,6 @@ export const ProfileType = {
     childImageSharp: object.isRequired,
     publicURL: string.isRequired,
   }),
-  
   location: string.isRequired,
   name: string.isRequired,
   profession: string.isRequired,
@@ -24,3 +24,31 @@ export const ProfileType = {
   skills: arrayOf(string).isRequired,
   tools: arrayOf(string).isRequired,
 }
+
+export const query = graphql`
+  fragment CustomProfileFragment on ProfileYaml {
+    about
+    budget {
+      currency
+      default
+      max
+      min
+    }
+    company
+    focus
+    focus_url
+    for_hire
+    image {
+      childImageSharp {
+        gatsbyImageData(layout: FIXED, width: 225, height: 225, quality: 90)
+      }
+      publicURL
+    }
+    location
+    name
+    profession
+    relocation
+    skills
+    tools
+  }
+`
