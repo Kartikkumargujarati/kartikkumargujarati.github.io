@@ -6,13 +6,15 @@ export const WorkHistoryType = {
   period: string,
   position: string,
   url: string,
+  desc: string,
 }
 
 export const query = graphql`
-  fragment WorkHistoryFragment on WorkHistoryYaml {
+  fragment CustomWorkHistoryFragment on WorkHistoryYaml {
     company
     period
     position
     url
+    desc
   }
 `

@@ -15,7 +15,7 @@ const Sidebar = ({ profile, social }) => (
           <ProfileImage image={profile.image} name={profile.name} />
         )}
         <br />
-        <h4 className="text-medium text-center">
+        <h4 className="font-text text-lg text-center">
           Tech Enthusiast | Achiever | Restorative | Learner | Analytical
         </h4>
         <div className="flex justify-center inline-block">

@@ -5,11 +5,11 @@ import "./work-history.css"
 const WorkHistory = ({ history }) => {
   return (
     <>
-      <h5 className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3 text-center">
-        Work history
-      </h5>
+    <h5 className="flex flex-wrap font-header font-semibold text-front text-xl mb-3">
+      Experience
+    </h5>
       <div className="history flex flex-col relative pt-6 pb-6">
-        {history.map(({ company, period, position, url }, i) => (
+        {history.map(({ company, period, position, url, desc }, i) => (
           <div
             className="history-entry relative w-1/2 py-4"
             key={`${company}_${i}`}
@@ -37,6 +37,9 @@ const WorkHistory = ({ history }) => {
             )}
             {period && (
               <span className="text-sm font-medium opacity-50">{period}</span>
+            )}
+            {desc && (
+              <h5 className="text-sm font-normal mb-1">{desc}</h5>
             )}
           </div>
         ))}

@@ -5,16 +5,11 @@
   image: images/profile2.png
   location: Austin, Texas
   relocation: false
-  company: Atomic Studio
+  company: Portfolio
   for_hire: false
   focus: Learning Gatsby
   focus_url: https://gatsbyjs.org
-  about: |
-    I'm Kartik. I am a software enginer 👨‍💻 and a huge taco lover 🌮 ❤️
-    
-    I currently work at <a href="https://retailmenot.con">link text</a> RetailMeNot, Inc. as a Senior Software Engineer focusing on Android and GraphQL. 
-
-    User generated content in real-time will have multiple touchpoints for offshoring. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+  about: I'm Kartik. I am a software enginer 👨‍💻 and a huge taco lover 🌮 ❤️
   skills:
     - Android
     - Kotlin
