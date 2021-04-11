@@ -8,7 +8,7 @@ const Skills = ({ skills }) => (
       Top skills
     </h5>
     <div className="flex justify-center inline-block">
-      <div className="md:w-3/4 pb-12 md:pr-8 lg:pr-12 xl:pr-20">
+      <div className="md:w-2/3 pb-12">
         <ul className="flex flex-wrap grid grid-cols-3 gap-2 md:gap-4">
           {skills.map((skill, i) => (
             <Skill skill={skill} key={skill} i={i + 1} />
