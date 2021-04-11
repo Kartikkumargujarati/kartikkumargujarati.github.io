@@ -1,22 +1,28 @@
-- company: Atomic Studio
-  position: Senior Web Developer
-  period: January 2018 - present
-  url: https://atomic.studio
-  desc: Some description
+- company: RetailMeNot, Inc.
+  position: Senior Software Engineer
+  period: September 2019 - present
+  url: https://play.google.com/store/apps/details?id=com.whaleshark.retailmenot
+  desc: Leading the Android and GraphQL development efforts on the Native apps team.
 
-- company: Atomic Studio
-  position: Web Developer
-  period: January 2014 - December 2017
-  url: https://atomic.studio
-  desc: Some description
+- company: Rackspace Technology
+  position: Software Developer III
+  period: November 2017 - September 2019
+  url: https://rackspace.com
+  desc: Led the development of the mobile offering (Android & iOS) while collaborating across the board.
 
-- company: WebConnect Agency
-  position: Junior Web Developer
-  period: November 2010 - December 2013
-  url:
-  desc: Some description
+- company: Malauzai Software, Inc.
+  position: Android Developer
+  period: March 2017 - November 2017
+  url: https://play.google.com/store/apps/developer?id=Malauzai+Software
+  desc: Built various features for a white-label digital banking application.
 
-- company: Freelance
-  position: Web Developer
-  period: April 2008 - October 2010
-  desc: Some description
+- company: North Carolina A&T State University
+  position: Android Research Assistant
+  period: August 2015 - January 2017
+  desc: Worked on a National Science Foundation (NSF) funded research focused on Android security.
+
+- company: New Relic, Inc.
+  position: Software Engineer
+  period: May 2016 - August 2016
+  url: https://newrelic.com
+  desc: Built features of New Relic's APM Android application.

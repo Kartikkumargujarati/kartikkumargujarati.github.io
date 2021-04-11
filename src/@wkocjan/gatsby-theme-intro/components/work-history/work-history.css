@@ -33,7 +33,7 @@
 }
 
 /* Different colors on the first item */
-.history-entry:first-child .dot-bg {
+.history-entry .dot-bg {
   @apply bg-front;
 }
 
