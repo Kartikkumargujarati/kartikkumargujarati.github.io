@@ -10,6 +10,7 @@
   "dependencies": {
     "@wkocjan/gatsby-theme-intro": "^2.0.0",
     "gatsby": "^3.2.1",
+    "gatsby-plugin-google-gtag": "^3.2.0",
     "gatsby-plugin-postcss": "^4.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
