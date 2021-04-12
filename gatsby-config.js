@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    description: "Personal page of Kartik Kumar Gujarati",
+    description: "Kartik Kumar Gujarati's personal page",
     locale: "en",
     title: "👨‍💻 Kartik Kumar Gujarati",
     formspreeEndpoint: "https://formspree.io/f/{your-id}",
