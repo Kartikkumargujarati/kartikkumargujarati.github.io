@@ -25,4 +25,4 @@ $ git clone git@github.com:Kartikkumargujarati/kartikkumargujarati.github.io.git
 ```
 $ gatsby develop
 ```
-The website should now running at http://localhost:8000
+The website should now be running at http://localhost:8000
