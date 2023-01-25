@@ -10,7 +10,7 @@ const About = ({ about }) => (
     <div className="font-text text-xl pb-12 leading-normal whitespace-pre-line">
       <p>I'm Kartik. I am a software engineer 👨‍💻 and a huge taco lover 🌮 ❤️</p>
       <br />
-      <p>I currently work at <a class="underline" href="https://retailmenot.com">RetailMeNot, Inc</a> as a Senior Software Engineer focusing on Android and GraphQL.</p>
+      <p>I currently work at <a class="underline" href="https://retailmenot.com">RetailMeNot, Inc</a> where I lead the native apps team (Android & iOS teams) and own the RetailMeNot's Federated GraphQL architecture.</p>
       <br />
       <p>I am passionate about building good software and always looking for ways to improve user experience. My technical interests include Mobile development, GraphQL, CI/CD, DevOps, and Machine learning. </p>
       <br />
